@@ -1,0 +1,18 @@
+{
+    "name": "学生ポータル課題〆切可視化ツール",
+    "version": "1.0.0",
+    "description": "課題提出状況を可視化します．未提出のまま〆切が近づくと七色に輝きます．",
+    "manifest_version": 3,
+    "icons": {
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mars41.mars.kanazawa-it.ac.jp/eSylla/DashboardPortalAuth"
+            ],
+            "js": [
+                "deadline.js"
+            ]
+        }
+    ]
+}
