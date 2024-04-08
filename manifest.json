@@ -5,13 +5,14 @@
     "manifest_version": 3,
     "icons": {
     },
+    "permissions": ["activeTab", "scripting"],
     "content_scripts": [
         {
             "matches": [
-                "https://mars41.mars.kanazawa-it.ac.jp/eSylla/DashboardPortalAuth"
+                "https://mars41.mars.kanazawa-it.ac.jp/eSylla/DashboardPortalAuth/*"
             ],
             "js": [
-                "deadline.js"
+                "popup.js"
             ]
         }
     ]
