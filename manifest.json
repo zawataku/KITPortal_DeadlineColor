@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "課題提出状況を可視化します．未提出のまま〆切が近づくと七色に輝きます．",
     "manifest_version": 3,
-    "action": {
-        "default_popup": "popup.html"
-    },
     "icons": {
     },
     "permissions": ["activeTab", "scripting"],

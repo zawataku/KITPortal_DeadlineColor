@@ -1,15 +1,4 @@
-document.getElementById("btn").addEventListener("click", async () => {
-    let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-    chrome.scripting.executeScript({
-        target: { tabId: tab.id },
-        function: onRun,
-    });
-});
-
-function onRun() {
-    // 背景を桜色を変える
-    // document.body.style.backgroundColor = "#fcc";
-
+setTimeout(() => {
     // ページ上の even または odd クラスが付与された <tr> 要素を取得
     let trEvenElements = document.querySelectorAll('tr.even, tr.odd');
     console.log(trEvenElements);
@@ -57,4 +46,4 @@ function onRun() {
     } else {
         console.error('No matching <tr> elements found.');
     }
-}
+}, 1000); // 1000ミリ秒 = 1秒
