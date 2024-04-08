@@ -1,0 +1,2 @@
+# KITPortal_DeadlineColor
+学生ポータルの課題状況を見やすくする拡張機能
