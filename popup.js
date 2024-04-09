@@ -37,8 +37,7 @@ setTimeout(() => {
                     threeDaysAgo.setDate(threeDaysAgo.getDate() + 3);
                     const currentDate = new Date(extractedDateTime);
                     if (currentDate <= threeDaysAgo) {
-                        // 3日前の場合、背景色を黒に変更する
-                        targetTd.style.backgroundColor = "#fcc";
+                        targetTd.classList.add("gaming"); // .gaming クラスを追加
                     }
                 }
             }

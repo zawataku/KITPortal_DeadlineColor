@@ -11,6 +11,9 @@
             "matches": [
                 "https://mars41.mars.kanazawa-it.ac.jp/eSylla/DashboardPortalAuth/*"
             ],
+            "css": [
+                "gaming_v2.css"
+            ],
             "js": [
                 "popup.js"
             ]

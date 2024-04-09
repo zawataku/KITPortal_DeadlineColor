@@ -1,0 +1,11 @@
+.gaming {
+    background: linear-gradient(to right, Magenta, yellow, Cyan, Magenta) 0% center/200%;
+    animation: gaming 2s linear infinite;
+    font-weight: bold;
+}
+
+@keyframes gaming {
+    100% {
+        background-position-x: 200%;
+    }
+}
